@@ -1,0 +1,81 @@
+body header {
+  max-width: 800px;
+  margin: 0 auto;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body header > div.box-logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-bottom: 2px solid black;
+  padding: 0 20px;
+}
+
+body header > div.box-logo > img {
+  width: 100px;
+  height: 100px;
+}
+
+body header > div.box-logo > div.text-logo {
+  text-align: center;
+  font-size: 1.1rem;
+  font-weight: 700;
+}
+
+body header > div.title {
+  text-align: center;
+  margin-top: 3rem;
+}
+
+body header > div.title > h2 {
+  font-size: 1.2rem;
+}
+
+body header > div.title > h2:not(:nth-child(3)) {
+  font-weight: 500;
+}
+
+body header > div.title > h2:nth-child(3) {
+  margin-top: 8rem;
+}
+
+body header > div.stud {
+  margin-top: 8rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+body header > div.stud > div {
+  font-size: 1.2rem;
+}
+
+body header > div.stud > div:nth-child(2) {
+  margin-top: 3rem;
+}
+
+body header > div.date {
+  text-align: center;
+  margin-top: 6rem;
+}
+
+body header > div.date > p {
+  font-size: 1.2rem;
+}
+
